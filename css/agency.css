@@ -158,6 +158,7 @@ img::-moz-selection {
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
     background-color: transparent;
+    text-shadow: 0 0 4px #000;
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
@@ -178,6 +179,7 @@ img::-moz-selection {
     padding-top: 0;
     padding-bottom: 0;
     background-color: #212529;
+    text-shadow: none;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -192,7 +194,8 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  text-shadow: 0 0 4px #000;
+  background-image: url("../img/gallery/high/IMG_7512.jpeg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -601,6 +604,25 @@ header.masthead .intro-text .intro-heading {
 
 .team-member p {
   margin-top: 0;
+}
+
+#partners #logos div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+#partners img.mw-80 {
+  max-width: 80%;
+}
+
+#partners img.mw-60 {
+  max-width: 60%;
+}
+
+#partners img.mw-40 {
+  max-width: 40%;
 }
 
 .footer {
